@@ -1,4 +1,50 @@
-.title{
-    color: blueviolet;
-    
+*{
+    margin: 0px;
+    padding: 0px;
 }
+.parent-div{  
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display:flex;align-items: center;
+}
+.menus ul{
+   list-style: none;
+   display: flex;
+   gap: 30px;
+   font-style: italic;
+ }
+ .banner-section{
+    height: 100vh;
+    background-image: url("./digital-agency-b8/asset/image/background.jpg");
+      background-size: cover;
+      display: flex;
+      text-align: center;
+     align-items: center;
+ }
+ .primary{
+    color: red;
+ }
+ .title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+ }
+ .description{
+    color: white;
+   padding: 10px;
+    width: 50%;
+    margin: auto;
+ }
+ #emon{
+    background-color: red;
+    color: white;
+ }
+ .btn{
+    padding: 10px 15px;
+    border: none;
+ }
