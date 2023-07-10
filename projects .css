@@ -48,3 +48,31 @@
     padding: 10px 15px;
     border: none;
  }
+ .service{
+   height: 100vh;
+    background-image: url("./digital-agency-b8/asset/image/footer-bg.png") ,
+    linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+     background-blend-mode: overlay;
+    background-size: cover; 
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+ }
+ .icon{
+   width: 70px;
+   margin: bottom 20px; ;
+ }
+ .box{
+   width: 150px;
+   height: 100px;
+   padding: 30px;
+   text-align: center;
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+}
+
+.text{
+   width: 50%;
+}
